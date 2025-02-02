@@ -1,68 +1,39 @@
 # 🤖 ✨ GitHub Copilot Certification Exam Preparation
 
-[![GitHub Copilot](https://img.shields.io/badge/GitHub-Copilot-blue?logo=github)](https://github.com/features/copilot)
-[![Course Status](https://img.shields.io/badge/Status-Active-brightgreen)](https://techtrainertim.com)
-[![Website](https://img.shields.io/badge/Website-TechTrainerTim-blue)](https://techtrainertim.com)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![GitHub Copilot Certification](images/copilot-cover-image.png)
 
-Welcome to the official preparation course for the GitHub Copilot Certification Exam. This comprehensive training program is designed to help you master GitHub Copilot and successfully achieve certification. 🎯
+[![Website](https://img.shields.io/badge/Website-TechTrainerTim-blue)](https://techtrainertim.com) [![GitHub](https://img.shields.io/badge/GitHub-timothywarner-blue?logo=github)](https://github.com/timothywarner)
+
+Welcome to the official preparation course for the GitHub Copilot Certification Exam. This training program is designed to help you master GitHub Copilot and achieve certification. 🎯
 
 ## 🎓 Course Overview
 
-This course prepares developers for the GitHub Copilot Certification Exam by providing hands-on experience and in-depth knowledge of AI-assisted development using GitHub Copilot. You'll learn to leverage Copilot effectively in real-world programming scenarios while adhering to best practices and industry standards.
+This course provides hands-on experience and in-depth knowledge of AI-assisted development using GitHub Copilot.
 
 ## 🎯 Certification Exam Domains
 
-The GitHub Copilot Certification Exam covers the following domains:
-
 1. **Responsible AI (7%)**
-   - Ethical considerations
-   - Best practices for AI-assisted development
-
 2. **GitHub Copilot Plans and Features (31%)**
-   - Individual, Business, and Enterprise plans
-   - Core features and capabilities
-   - IDE integration options
-
 3. **How GitHub Copilot Works and Handles Data (15%)**
-   - AI model functionality
-   - Data processing and security
-   - System architecture
-
 4. **Prompt Crafting and Prompt Engineering (9%)**
-   - Writing effective prompts
-   - Optimizing code suggestions
-   - Context management
-
 5. **Developer Use Cases for AI (14%)**
-   - Common development scenarios
-   - Workflow integration
-   - Productivity optimization
-
 6. **Testing with GitHub Copilot (9%)**
-   - Test generation
-   - Code validation
-   - Quality assurance
-
 7. **Privacy Fundamentals and Context Exclusions (15%)**
-   - Data privacy principles
-   - Managing sensitive information
-   - Configuration and exclusions
 
 ## 🎯 Learning Objectives
 
 By completing this course, you will:
-- 🚀 Integrate GitHub Copilot into your workflow to automate coding tasks and boost productivity
-- 💻 Craft smarter prompts to get better code suggestions and streamline debugging, refactoring, and testing
-- 🔍 Set up and use Copilot in CI/CD pipelines, automating key tasks
-- ✅ Navigate the ins and outs of AI-assisted development with real-world challenges
-- 🛠️ Master responsible AI practices and data handling in development workflows
-- 📝 Gain hands-on experience with real-world scenarios that align with certification requirements
+- 🚀 Integrate GitHub Copilot into your workflow
+- 💻 Craft smarter prompts
+- 🔍 Set up and use Copilot in CI/CD pipelines
+- ✅ Navigate AI-assisted development challenges
+- 🛠️ Master responsible AI practices
+- 📝 Gain hands-on experience with real-world scenarios
 
 ## 📚 Official Learning Resources
 
 ### Microsoft Learn Paths
-- [GitHub Copilot Fundamentals - Understand the AI Pair Programmer](https://learn.microsoft.com/en-us/training/paths/copilot-fundamentals/)
+- [GitHub Copilot Fundamentals](https://learn.microsoft.com/en-us/training/paths/copilot-fundamentals/)
 - [Accelerate App Development by Using GitHub Copilot](https://learn.microsoft.com/en-us/training/paths/copilot-accelerate-dev/)
 
 ### LinkedIn Learning
@@ -80,10 +51,10 @@ By completing this course, you will:
 
 ## 📋 Prerequisites
 
-- 💻 Basic understanding of coding in any language (Python, JavaScript, etc.)
+- 💻 Basic understanding of coding
 - 🌐 Experience using GitHub, Visual Studio Code, or Visual Studio
 - 🤖 Familiarity with version control, debugging, and code refactoring
-- 📝 Basic understanding of DevOps concepts like CI/CD pipelines
+- 📝 Basic understanding of DevOps concepts
 
 ## 👨‍🏫 Instructor Contact
 
