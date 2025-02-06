@@ -128,3 +128,5 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+azd-scaffold-examples.sh
+~$warner-github-aio.pptx

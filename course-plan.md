@@ -1,38 +1,58 @@
-# GitHub Copilot Certification Exam Preparation Course Plan
+## GitHub Copilot Certification - Demo & Cert Prep - Drive-By Guide
 
-## Class Timetable (Central Standard Time)
+**Segment 1: Copilot - Get Started (1 Hour)**
 
-### Segment 1 - GitHub Copilot Plans and Features (9:00 AM - 10:00 AM)
-- Individual vs Business vs Enterprise licensing differences
-- IDE integration points (VS Code, Visual Studio, JetBrains, Neovim)
-- Core features: inline suggestions, chat, CLI support
-- Workspace trust and repository settings
-- Enabling/disabling Copilot for specific languages
-- Public code matching and duplicate code detection
+* **Licensing:** Individual | Business | Enterprise
+* **IDE:** VS Code (PRIMARY DEMO) | VS | JetBrains | Neovim
+* **Core Features (DEMO FOCUS):**
+    * **Inline:** Code Complete (LLM Powered - *mention briefly*)
+    * **Chat:** `/workspace` (Context Aware - *mention briefly*), `/explain`, `/tests`
+    * **GitHub.com:**  Inline (Consistent UX)
+    * **CLI:**  Copilot CLI
+* **Setup:** Workspace Trust | Settings (Lang Toggles, Public Match)
+* **Models:** GPT-3.5 | GPT-4 (Switching)
 
-### Segment 2 - How GitHub Copilot Works and Handles Data (10:00 AM - 11:00 AM)
-- Large Language Model (LLM) fundamentals
-- Context window limitations and management
-- Training data sources and model updates
-- Token handling and suggestion generation
-- File-level vs project-level context
-- Telemetry and data collection practices
+**Segment 2: Privacy & Safe Use (1 Hour - Blended Context)**
 
-### Segment 3 - Privacy Fundamentals and Context Exclusions (11:00 AM - 12:00 PM)
-- Data retention policies and practices
-- Public code filtering mechanisms
-- Configuring .copilot ignore files
-- Business data protection strategies
-- Compliance frameworks (GDPR, HIPAA, etc.)
-- Blocking sensitive data patterns
+* **Privacy Focus:** Data Retention | Public Filter
+* **`.copilotignore` (DEMO):**  Privacy Control, Context Exclude (*Show in Demo*)
+* **Business Data:** Protection | Enterprise Security
+* **Compliance:** GDPR | HIPAA (Mention Relevance)
+* **Sensitive Data:** Blocking
+* **Private Repos:**  Private Handling
+* **Suggestion Source:** Tracking (Briefly)
+* **Data Locality:** (Mention Consideration)
 
-### Lunch Break (12:00 PM - 1:00 PM)
+**Segment 3:  Workflow Boost (1 Hour - Blended Context)**
 
-### Segment 4 - Developer Use Cases for AI (1:00 PM - 2:00 PM)
-- Test generation and test-driven development
-- Documentation writing and updating
-- Code refactoring patterns
-- API integration assistance
-- Debug and error handling
-- Security vulnerability detection
+* **Test Gen (DEMO):** `/tests` (Unit Tests) | TDD (Workflow)
+* **Docs (DEMO):** Inline | README | API
+* **Refactor (DEMO):** Code Smells | Suggestions | Patterns
+* **Debug (DEMO):** `/explain` (Errors) | Bug Fixes
 
+**Segment 4: Advanced & Enterprise (30 mins - Blended Context)**
+
+* **Chat Advanced:** Custom Agents | Workspace Aware (Deeper Demo?) | Multi-Turn
+* **IDE Optimize:** VS Code Shortcuts (DEMO Shortcuts) | JetBrains | VS
+* **Enterprise:** CI/CD | Code Review Assist | IaC (If Relevant)
+
+**Segment 5: Cert Prep - EXAM FOCUS (30 mins)**
+
+* **Exam Strategy:**  Objective Review | Time Mgmt
+* **Test Tips:**  Keywords | Scenario Qs | Feature Understanding
+* **Practice Qs:**  (Have ready - *mention/show example*)
+* **Resource Review:**  Docs | Learning Paths | Exam Guide (Point to Resources)
+* **Confidence Boost:** Q&A | Final Tips
+
+**DEMO KEYWORDS - Drive-By Inspiration:**
+
+* Inline Suggestions
+* Copilot Chat Commands: `/workspace`, `/explain`, `/tests`
+* `.copilotignore` Setup
+* Test Generation
+* Doc Generation
+* Refactoring Suggestions
+* Debugging Help
+* VS Code Shortcuts
+
+**REMEMBER: 90% DEMO.  Keep it fast, practical, engaging!**
