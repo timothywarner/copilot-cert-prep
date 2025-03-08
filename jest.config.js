@@ -9,5 +9,5 @@ module.exports = {
       statements: 80
     }
   },
-  testMatch: ['**/__tests__/**/*.js', '**/?(*.)+(spec|test).js']
+  testMatch: ['**/test/**/*.js', '**/?(*.)+(spec|test).js']
 };

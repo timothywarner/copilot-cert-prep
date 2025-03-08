@@ -1,20 +1,11 @@
 'use strict';
-const config = require('../config');
-const chai = require('chai');
-const chaiHttp = require('chai-http');
-const should = chai.should();
+const request = require('supertest');
 const server = require('../app');
 
-chai.use(chaiHttp);
-
-describe('/GET', () => {
-    it('returns the homepage', (done) => {
-        chai.request(`http://localhost:${config.port}`)
-            .get('/')
-            .end((err, res) => {
-                res.should.have.status(200);
-                res.text.should.contain('Welcome to GitHub Copilot Training!');
-                done();
-            });
+describe('GET /', () => {
+    test('returns the homepage', async () => {
+        const response = await request(server).get('/');
+        expect(response.status).toBe(200);
+        expect(response.text).toContain('Welcome to GitHub Copilot Training!');
     });
 });

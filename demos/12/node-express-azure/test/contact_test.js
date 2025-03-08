@@ -1,20 +1,10 @@
-'use strict';
-const config = require('../config');
-const chai = require('chai');
-const chaiHttp = require('chai-http');
-const should = chai.should();
+const request = require('supertest');
 const server = require('../app');
 
-chai.use(chaiHttp);
-
-describe('/GET', () => {
-    it('returns the contact page', (done) => {
-        chai.request(`http://localhost:${config.port}`)
-            .get('/contact')
-            .end((err, res) => {
-                res.should.have.status(200);
-                res.text.should.contain('Contact Us');
-                done();
-            });
+describe('GET /contact', () => {
+    test('returns the contact page', async () => {
+        const response = await request(server).get('/contact');
+        expect(response.status).toBe(200);
+        expect(response.text).toContain('Contact Us');
     });
 });
